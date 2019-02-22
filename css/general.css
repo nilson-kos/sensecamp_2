@@ -1,0 +1,77 @@
+body {
+    font-family: 'Montserrat';
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+nav {
+    background-color: #001843;
+}
+
+nav a {
+    color: #C4D0F0 !important;
+}
+
+.nav-wrapper .input-field input[type=search] {
+    height: 64px;
+}
+.input-field label {
+    max-height: 64px;
+}
+
+.nav-wrapper .input-field input[type=search]:focus:not(.browser-default) {
+    color: black !important;
+}
+
+.nav-wrapper input{
+    color: #C4D0F0;
+}
+
+.sidenav .input-field {
+    border-bottom: 1px solid #9e9e9e;
+}
+
+.sidenav input[type=search] {
+    border-bottom: none;
+    padding-left: 4rem;
+    width: 60%;0
+}
+
+.page-footer {
+    background: #001843;
+}
+
+.page-footer h5 {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    font-size: 13px;
+    color: #939FCC;
+}
+
+.page-footer p {
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    font-size: 13px;
+    color: #959595;
+}
+
+.page-footer li a{
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    font-size: 13px;
+    color: #939FCC;
+}
+
+@media screen and (max-width: 1450px) {
+    nav .container {
+        width: 98%;
+    }
+}

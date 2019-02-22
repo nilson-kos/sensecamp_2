@@ -1,0 +1,317 @@
+.theme {
+    background: #EAF1FF;
+}
+
+.theme .row-theme {
+    margin-bottom: 0px !important;
+}
+
+.theme .about h3 {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 12px;
+    color: #2C1C56;
+}
+
+.theme .about h1 {
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 37px;
+    font-size: 28px;
+    color: #313131;
+}
+
+.theme .about p {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 12px;
+    color: #1C1C1C;
+}
+
+.theme .specify h3 {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 13px;
+    color: #494949;
+}
+
+.theme .specify .tags .tag {
+    background: #F4F8FF;
+    border: 1px solid #C9D2DB;
+    box-sizing: border-box;
+    border-radius: 14px;
+    display: inline-flex;
+    width: min-content;
+    margin-top: 10px;
+    padding: 4px;
+}
+
+.theme .specify .tags .tag a {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    font-size: 13px;
+    color: #494949;
+}
+
+.top {
+    padding-top: 20px;
+    background: #F6F9FF;
+}
+
+.top .search .name {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    font-size: 22px;
+    color: #313131;
+    margin-top: 1rem;
+}
+
+.top .search .name img{
+    vertical-align: sub;
+    padding-right: 5px;
+}
+
+.top .search .input-field {
+    background: #FFFFFF;
+    border: 1px solid #ECEBFC;
+    box-shadow: 0px 2px 4px rgba(35, 51, 94, 0.0841259);
+    border-radius: 24.5px;
+}
+
+.top .search .input-field label {
+    left: 1.45rem;
+}
+
+.top .search label.active {
+    display: none;
+}
+
+.top .search .btn {
+    margin-top: 1rem;
+    width: 100%;
+    height: 54px;
+    background: #3A61FF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 24.5px;
+    text-transform: none;
+}
+
+.top .search form p {
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.194973);
+}
+
+.top .search .top_mobile {
+    display: none;
+}
+
+.top .sort {
+    margin-top: -20px;
+}
+
+.top .sort .btn-flat {
+    text-transform: none;
+}
+
+.top .card {
+    border-radius: 8px;
+}
+
+.top .card .card-title {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 18px;
+    color: #313131;
+}
+
+.top .card .card-txt {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 12px;
+    color: #313131;
+}
+
+.top .card .card-teg {
+    padding-top: 10px;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 11px;
+    color: #777777;
+}
+
+.top .card .card-author {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 11px;
+    color: #777777;
+    padding-bottom: 10px;
+}
+
+.top .card .card-date {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 12px;
+    color: #313131;
+    float: left;
+}
+
+.top .card .card-source {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 12px;
+    float: right;
+    color: #1D2781;
+}
+
+.top .card .card-source i {
+    vertical-align: bottom;
+    padding-left: 5px;
+    color: grey;
+    font-size: 30px;
+}
+
+.top .cards .btn {
+    margin-top: 30px;
+    width: 208px;
+    height: 42px;
+    background: #001843;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 24.5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.top .cards .btn p {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 9px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.194973);
+    text-transform: none;
+}
+
+.top_content {
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+.top_content h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    font-size: 20px;
+    color: #313131;
+}
+
+.top_content h2 span {
+    padding-left: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    font-size: 12px;
+    text-align: right;
+    color: #10335E;
+}
+
+.top_content .top_anal .itm {
+    margin-bottom: 20px;
+}
+
+.top_content .top_anal .itm .date {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 12px;
+    color: #313131;
+}
+
+.top_content .top_anal .itm .source {
+    padding-left: 30px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 12px;
+    color: #1D2781;
+}
+
+.top_content .top_anal .itm a {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 18px;
+    color: #1F355B;
+}
+
+.top_content .interactive .itm {
+    display: flex;
+}
+
+.top_content .interactive .itm {
+    margin-bottom: 20px;
+}
+
+.top_content .interactive .itm_ppt {
+    padding-top: 10px;
+}
+
+.top_content .interactive .itm_content {
+    padding-left: 30px;
+}
+
+.top_content .interactive .itm .date {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 12px;
+    color: #313131;
+}
+
+.top_content .interactive .itm .source {
+    padding-left: 30px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 12px;
+    color: #1D2781;
+}
+
+.top_content .interactive .itm a {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 18px;
+    color: #1F355B;
+}
+
+
+@media screen and (max-width: 870px) {
+    .top .search .top_mobile {
+        display: block;
+    }
+    .top .search .top_desktop {
+        display: none;
+    }
+}

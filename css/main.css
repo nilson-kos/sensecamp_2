@@ -1,0 +1,269 @@
+.about {
+    background-image: url(../img/image.svg);
+    background-repeat: repeat;
+    height: 357px;
+}
+
+.about_mobile{
+    display: none;
+}
+
+.about h1 {
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 70px;
+    color: #FFC402;
+}
+
+.about h2 {
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+    color: #FFFFFF;
+}
+
+.about .input-field {
+    background: #FFFFFF;
+    border-radius: 24.5px;
+}
+
+.about .input-field label {
+    left: 1.45rem;
+}
+
+.about label.active {
+    display: none;
+}
+
+.about .btn {
+    margin-top: 1rem;
+    width: 100%;
+    height: 54px;
+    background: #3A61FF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 24.5px;
+    text-transform: none;
+}
+
+.about p {
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.194973);
+}
+
+.request {
+    background: #EBF0FA;
+}
+
+.request h2 {
+    margin-top: 0px;
+    padding-top: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    font-size: 22px;
+    text-align: center;
+    color: #313131;
+}
+
+.request img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 124px !important;
+    padding-top: 20px;
+}
+
+.request p {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 19px;
+    font-size: 16px;
+    text-align: center;
+    color: #313131;
+}
+
+.request .btn {
+    margin-top: 30px;
+    width: 208px;
+    height: 42px;
+    background: #E86B00;
+    box-shadow: 0px 2px 7px rgba(247, 32, 0, 0.5);
+    border-radius: 24.5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.request .card {
+    border-radius: 8px;
+}
+
+.request .btn p {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 9px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.194973);
+    text-transform: none;
+}
+
+.request_mobile {
+    display: none;
+}
+
+.top h2 {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    font-size: 22px;
+    text-align: center;
+    color: #313131;
+}
+
+.top .card {
+    border-radius: 8px;
+}
+
+.top .card .card-title {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 18px;
+    color: #313131;
+}
+
+.top .card .card-txt {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 12px;
+    color: #313131;
+}
+
+.top .card .card-teg {
+    padding-top: 10px;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 11px;
+    color: #777777;
+}
+
+.top .card .card-author {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 11px;
+    color: #777777;
+    padding-bottom: 10px;
+}
+
+.top .card .card-date {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 12px;
+    color: #313131;
+    float: left;
+}
+
+.top .card .card-source {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 12px;
+    float: right;
+    color: #1D2781;
+}
+
+.top .btn {
+    margin-top: 30px;
+    width: 208px;
+    height: 42px;
+    background: #001843;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 24.5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.top .btn p {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 9px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.194973);
+    text-transform: none;
+}
+
+@media screen and (max-width: 1270px) {
+    .about {
+        height: 420px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .request_mobile {
+        display: block;
+    }
+    .request_desktop {
+        display: none;
+    }
+    .about_mobile {
+        display: block;
+    }
+    .about_desktop {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .about h1 {
+        font-size: 30px;
+    }
+    .about h2 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .about {
+        height: 510px;
+    }
+}
+
+@media screen and (max-width: 369px) {
+    .about h1 {
+        font-size: 26px;
+    }
+    .about h2 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .about {
+        height: 550px;
+    }
+}
+
+
